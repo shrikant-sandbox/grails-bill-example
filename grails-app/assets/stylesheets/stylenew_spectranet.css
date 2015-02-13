@@ -1,0 +1,476 @@
+@page {
+    size: 8.5in 11in;  /* portrait */
+    margin: 0.2cm 0.2cm 0.2cm 0.2cm;
+}
+@font-face
+{
+font-family: "Franklin Gothic Book";
+src: url('fonts/Franklin_Gothic_Book.ttf');
+-fs-pdf-font-embed: embed;
+        -fs-pdf-font-encoding: Identity-H; 
+}
+
+@font-face
+{
+font-family: "Franklin Gothic Book Italic";
+src: url('fonts/Franklin_Gothic_Book_Italic.ttf');
+-fs-pdf-font-embed: embed;
+        -fs-pdf-font-encoding: Identity-H; 
+}
+
+@font-face
+{
+font-family: "Franklin Gothic Medium";
+src: url('fonts/Franklin_Gothic_Medium.ttf');
+-fs-pdf-font-embed: embed;
+        -fs-pdf-font-encoding: Identity-H; 
+}
+
+@font-face
+{
+font-family: "Franklin Gothic Medium Italic";
+src: url('fonts/Franklin_Gothic_Medium_Italic.ttf');
+-fs-pdf-font-embed: embed;
+        -fs-pdf-font-encoding: Identity-H; 
+}
+
+@font-face
+{
+font-family: Rupee;
+src: url('fonts/Rupee.ttf');
+-fs-pdf-font-embed: embed;
+        -fs-pdf-font-encoding: Identity-H; 
+}
+
+body {
+	margin:0;
+	color:#000;
+	font-size: 12px;
+	font-family: "Franklin Gothic Book";
+	}
+
+
+
+
+.main{
+	margin:auto;
+	width:780px;
+	height:auto;
+	background-color:#fff;
+}
+
+.header{
+	float:left;
+	width:730px;
+	height:64px;
+	background-color:#ec008c;
+	padding: 7px 25px 7px 25px;
+}
+
+.header_logo1{
+	float:left;
+	width:350px;
+	height:64px;
+	background-color:#ec008c;
+}
+
+.header_logo2{
+	float:left;
+	width:380px;
+	height:63px;
+	text-align:right;
+	background-color:#ec008c;
+	vertical-align: middle;
+}
+
+.content{
+	float:left;
+	width:760px;
+	height:auto;
+	padding: 10px;
+}
+
+.name{
+	float:left;
+	width:760px;
+	height:auto;
+	line-height: 18px;
+	padding-bottom: 20px;
+}
+
+.name_detail1{
+	float:left;
+	width:310px;
+	height:auto;
+	padding: 10px;
+}
+
+.name_detail1_1{
+	float:left;
+	width:310px;
+	height:auto;
+}
+
+
+.name_detail2{
+	float:left;
+	width:180px;
+	height:auto;
+	padding: 10px;
+}
+
+.name_detail2_1{
+	float:left;
+	width:180px;
+	height:auto;
+}
+
+.name_detail3{
+	float:left;
+	width:210px;
+	height:auto;
+	padding: 10px;
+}
+
+.name_detail3_1{
+	float:left;
+	width:210px;
+	height:auto;
+}
+
+.account{
+	float:left;
+	width:760px;
+	height:auto;
+}
+
+.account_1{
+	float:left;
+	width:760px;
+	height:auto;
+	font-size:16px;
+	padding-bottom:10px;
+}
+
+.account_2{
+	float:left;
+	width:760px;
+	height:auto;
+	padding-bottom: 10px;
+}
+
+.color_ch1{
+	color:#ec008c;
+}
+
+.bill_summary{
+	float:left;
+	width:760px;
+	height:auto;
+}
+
+.bill_summary_2{
+	float:left;
+	width:760px;
+	height:auto;
+}
+
+.bill_summary_21{
+	float:left;
+	width:335px;
+	height:auto;
+}
+
+.bill_summary_21_1{
+	float:left;
+	width:185px;
+	height:auto;
+	padding:10px 5px;
+}
+
+.bill_summary_21_1_heading{
+	float:left;
+	width:175px;
+	height:auto;
+	padding: 5px;
+}
+
+.bill_summary_21_1_box{
+	float:left;
+	width:15px;
+	height:auto;
+}
+
+.bill_summary_21_1_box2{
+	float:left;
+	width:160px;
+	height:auto;
+	font-size: 11px;
+}
+
+.bill_summary_21_2{
+	float:left;
+	width:120px;
+	height:auto;
+	padding:10px 20px 10px 0px;
+}
+
+.bill_summary_21_2_heading{
+	float:left;
+	width:110px;
+	height:auto;
+	padding:5px;
+	text-align: right;
+}
+
+.bill_summary_21_nearest{
+	float:left;
+	width:315px;
+	height:auto;
+	padding: 10px;
+	line-height: 18px;
+	font-size: 11px;
+}
+
+
+.discover{
+	float:left;
+	width:425px;
+	height:351px;
+	background-image:url(images/discover.jpg);
+	background-repeat:repeat-x;
+}
+
+.discover_1{
+	float:left;
+	width:425px;
+	height:auto;
+}
+
+.discover_2{
+	float:left;
+	width:405px;
+	height:auto;
+	font-family: "Franklin Gothic Medium";
+	font-size:16px;
+	color: #fff;
+	padding-left: 20px;
+	padding-bottom: 2px;
+}
+
+.discover_21{
+	float:left;
+	width:270px;
+	height:auto;
+	font-family: "Franklin Gothic Medium";
+	font-size:16px;
+	color: #fff;
+	padding-left: 155px;
+	padding-bottom: 5px;
+}
+
+.discover_21_1{
+	float:left;
+	width:140px;
+	height:auto;
+	font-family: "Franklin Gothic Medium";
+	font-size:13px;
+	color: #fff;
+	text-align: center;
+	padding: 0 5px;
+}
+
+.discover_21_2{
+	float:left;
+	width:120px;
+	height:auto;
+	font-family: "Franklin Gothic Medium";
+	font-size:13px;
+	color: #fff;
+	text-align: center;
+}
+
+.discover_3{
+	float:left;
+	width:425px;
+	height:59px;
+	background-image:url(http://203.122.58.66/media/images/icons.jpg);
+	background-repeat:no-repeat;
+	padding: 5px 0 0 0;
+}
+
+.discover_31{
+	float:left;
+	width:370px;
+	height:auto;
+	font-size:16px;
+	color: #fff;
+	padding: 0 0 0 55px;
+	margin: 1px 0 1px 0;
+}
+
+.discover_31_1{
+	float:left;
+	width:90px;
+	height:auto;
+	font-size:13px;
+	color: #fff;
+	padding: 0 5px;
+	text-align: left;
+}
+
+.discover_31_2{
+	float:left;
+	width:140px;
+	height:auto;
+	font-size:13px;
+	color: #fff;
+	text-align: center;
+	padding: 0 5px;
+}
+
+.discover_31_3{
+	float:left;
+	width:120px;
+	height:auto;
+	font-size:13px;
+	color: #fff;
+	text-align: center;
+}
+
+.discover_4{
+	float:left;
+	width:385px;
+	height:auto;
+	padding: 10px 10px 10px 20px;
+	color: #fff;
+	text-align: justify;
+	text-align-last: left;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.discover_5{
+	float:left;
+	width:225px;
+	height:23px;
+	color: #ec008c;
+	text-align: center;
+	padding: 6px 100px 5px;
+	background: url(http://203.122.58.66/media/images/button_1.jpg) no-repeat center center;
+	font: 16px "Franklin Gothic Book";
+}
+
+.discover_5 a{
+	text-decoration:none;
+	color: #ec008c;
+}
+
+.discover_5 a:link {
+	text-decoration:none;
+	color: #ec008c;
+}
+
+.discover_5 a:hover {
+	text-decoration:none;
+	color: #ec008c;
+}
+
+.discover_5 a:visit {
+	text-decoration:none;
+	color: #ec008c;
+}
+
+.pay{
+	float:left;
+	width:760px;
+	height:auto;
+	padding: 20px 0 10px 0;
+}
+
+.pay_1{
+	float:left;
+	width:760px;
+	height:auto;
+	padding-bottom: 10px;
+	line-height: 18px;
+	font-size: 11px;
+}
+
+.pay_txt{
+	float:left;
+	width:740px;
+	height:auto;
+	padding-bottom: 10px;
+	line-height: 20px;
+	font-size: 11px;
+	text-align: justify;
+	padding-right: 0px;
+        padding-left: 0px;
+}
+
+.pay_box2{
+	float:left;
+	width:360px;
+	height:auto;
+	font-size: 11px;
+}
+
+.pay_box21{
+	float:left;
+	width:400px;
+	height:auto;
+	font-size: 11px;
+}
+
+.pay_box211{
+	float:left;
+	width:80px;
+	height:auto;
+	padding-right: 320px;
+	text-align: right;
+}
+
+.font_si{
+font-family:"Franklin Gothic Medium";
+	font-size:15px;
+}
+
+.font_si2{
+	font-size:11px;
+}
+
+
+.style2 {
+	font-family: "Franklin Gothic Medium";
+	font-size:16px;
+}
+
+.style1 {
+	font-family: "Franklin Gothic Medium";
+	font-size:12px;
+}
+
+.style3 {
+	font-family: "Rupee";
+	
+}
+
+table
+ {
+ border-collapse:collapse;
+ }
+
+table, th, td
+ {
+ border: 1px solid #bcbec0;
+ }
+.style4 {
+	font-family: "Franklin Gothic Medium";
+	font-size:10px;
+}
+p.breakhere {page-break-after: always}
+
